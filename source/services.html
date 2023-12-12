@@ -85,32 +85,34 @@
       <h2 class="visually-hidden">Our Works</h2>
       <ul class="works__list">
         <li class="works__item">
-          <p class="works__title">
-            Lorem Ipsum is simply dummy text dummy text
-          </p>
-          <p class="works__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
-          <p class="works__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-          <a class="button works__button" href="#">Read more</a>
+          <div class="works__wrapper">
+            <p class="works__title">Lorem Ipsum is simply dummy text dummy text</p>
+            <p class="works__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+            <p class="works__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <a class="button works__button" href="#">Read more</a>
+          </div>
           <img class="works__image" src="#" alt="#">
         </li>
 
         <li class="works__item">
           <img class="works__image" src="#" alt="#">
-          <p class="works__title">
-            Lorem Ipsum is simply dummy text dummy text
-          </p>
-          <p class="works__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
-          <p class="works__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-          <a class="button works__button" href="#">Read more</a>
+          <div class="works__wrapper">
+            <p class="works__title">Lorem Ipsum is simply dummy text dummy text</p>
+            <p class="works__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+            <p class="works__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <a class="button works__button" href="#">Read more</a>
+          </div>
         </li>
 
         <li class="works__item">
-          <p class="works__title">
-            Lorem Ipsum is simply dummy text dummy text
-          </p>
-          <p class="works__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
-          <p class="works__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-          <a class="button works__button" href="#">Read more</a>
+          <div class="works__wrapper">
+            <p class="works__title">
+              Lorem Ipsum is simply dummy text dummy text
+            </p>
+            <p class="works__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+            <p class="works__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <a class="button works__button" href="#">Read more</a>
+          </div>
           <img class="works__image" src="#" alt="#">
         </li>
       </ul>
@@ -122,6 +124,7 @@
       <div class="reviews__slider">
         <ul class="reviews__list">
           <li class="reviews__item">
+            <img class="reviews__photo" src="#" alt="#">
             <span class="reviews__name">Viezh Robert</span>
             <span class="reviews__city">Warsaw, Poland</span>
             <span class="reviews__rating">4.5</span>
@@ -129,6 +132,7 @@
           </li>
 
           <li class="reviews__item">
+            <img class="reviews__photo" src="#" alt="#">
             <span class="reviews__name">Yessica Christy</span>
             <span class="reviews__city">Shanxi, China</span>
             <span class="reviews__rating">4.5</span>
@@ -136,15 +140,44 @@
           </li>
 
           <li class="reviews__item">
+            <img class="reviews__photo" src="#" alt="#">
             <span class="reviews__name">Kim Young Jou</span>
             <span class="reviews__city">Seoul, South Korea</span>
             <span class="reviews__rating">4.5</span>
             <p class="reviews__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           </li>
+        </ul>
 
+        <ul class="reviews__pagination">
+          <li class="reviews__pagination-item">
+            <a class="reviews__pagination-link reviews__pagination-link--active" href="#">
+              <span class="visually-hidden">1</span>
+            </a>
+          </li>
+
+          <li class="reviews__pagination-item">
+            <a class="reviews__pagination-link" href="#">
+              <span class="visually-hidden">2</span>
+            </a>
+          </li>
+
+          <li class="reviews__pagination-item">
+            <a class="reviews__pagination-link" href="#">
+              <span class="visually-hidden">3</span>
+            </a>
+          </li>
+
+          <li class="reviews__pagination-item">
+            <a class="reviews__pagination-link" href="#">
+              <span class="visually-hidden">4</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="reviews__buttons">
           <button class="reviews__previous" type="button"></button>
           <button class="reviews__next" type="button"></button>
-        </ul>
+        </div>
       </div>
     </section>
 
@@ -152,7 +185,7 @@
       <h2 class="subscribe__title">Lorem Ipsum</h2>
       <p class="subscribe__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 
-      <form class="form subscribe__form" action="#" method="post">
+      <form class="form subscribe__form" action="https://echo.htmlacademy.ru/" method="post">
         <p class="form__title">Stay in the loop</p>
         <p class="form__text">Subscribe to receive the latest news and updates about TDA. We promise not to spam you!
         </p>
