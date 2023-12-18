@@ -1,3 +1,8 @@
 @import './commons/fonts.scss';
+@import './commons/global.scss';
+@import './commons/mixins.scss';
+@import './commons/variables.scss';
+@import './commons/visually-hidden.scss';
 
 @import './blocks/header.scss';
+@import './blocks/page.scss';
