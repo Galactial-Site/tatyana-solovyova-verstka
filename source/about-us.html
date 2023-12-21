@@ -34,19 +34,21 @@
     <h1 class="visually-hidden">Information about company</h1>
     <section class="promo">
       <div class="promo__wrapper">
-        <ul class="breadcrumbs">
-          <li class="breadcrumbs__item">
-            <a class="breadcrumbs__link" href="./index.html">Home</a>
-          </li>
-          <li class="breadcrumbs__item">
-            <a class="breadcrumbs__link breadcrumbs__link--active" href="#">About us</a>
-          </li>
-        </ul>
+        <div class="breadcrumbs">
+          <ul class="breadcrumbs__list">
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="./index.html">Home</a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link breadcrumbs__link--active" href="#">About us</a>
+            </li>
+          </ul>
+        </div>
         <h2 class="promo__title">Lorem Ipsum is simply dummy text of the printing and.</h2>
         <p class="promo__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
           has
           been the industry's standard dummy text ever since the 1500s.</p>
-        <a class="button promo__button" href="#">Get in touch</a>
+        <a class="button button--promo" href="#">Get in touch</a>
       </div>
 
       <div class="slider">
@@ -72,19 +74,19 @@
       <ul class="advantages__list">
         <li class="advantages__item">
           <span class="advantages__highlight advantages__highlight--purple">Lorem ipsum</span>
-          <h3 class="advantages__title">Lorem ipsum</h3>
+          <h3 class="advantages__subtitle">Lorem ipsum</h3>
           <p class="advantages__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
             Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
         </li>
         <li class="advantages__item">
           <span class="advantages__highlight advantages__highlight--orange">Lorem ipsum</span>
-          <h3 class="advantages__title">Lorem ipsum</h3>
+          <h3 class="advantages__subtitle">Lorem ipsum</h3>
           <p class="advantages__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
             Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
         </li>
         <li class="advantages__item">
           <span class="advantages__highlight advantages__highlight--green">Lorem ipsum</span>
-          <h3 class="advantages__title">Lorem ipsum</h3>
+          <h3 class="advantages__subtitle">Lorem ipsum</h3>
           <p class="advantages__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
             Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
         </li>
@@ -92,8 +94,8 @@
     </section>
 
     <section class="big-advantage">
-      <img class="big-advantage__image" src="#" alt="game">
-      <span class="big-advantage__desc">Lorem ipsum</span>
+      <img class="big-advantage__image" src="./images/witch@1x.jpg" alt="game" width="496" height="490">
+      <span class="big-advantage__description">Lorem ipsum</span>
       <h2 class="big-advantage__title">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
       <p class="big-advantage__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
         Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
@@ -101,6 +103,7 @@
     </section>
 
     <section class="team">
+      <h2 class="team__title">Our Team</h2>
       <ul class="team__list">
         <li class="team__item">
           <p class="team__name">John peter</p>
@@ -133,14 +136,14 @@
         <label class="visually-hidden" for="email-input">Email</label>
         <input class="form__input" type="email" id="email-input" name="email-input" placeholder="Enter email address">
 
-        <button class="button form__button" type="submit">Continue</button>
+        <button class="button button--form" type="submit">Continue</button>
       </form>
     </section>
   </main>
 
-  <footer class="footer">
+ <footer class="footer">
     <div class="footer__wrapper">
-      <a class="logo footer__logo" href="#">Logo</a>
+      <a class="logo logo--footer" href="#">Logo</a>
       <p class="footer__slogan">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
       <span class="footer__author">@Logo</span>
     </div>
@@ -167,7 +170,7 @@
       <h2 class="footer__title">Contact us</h2>
       <address class="footer__address">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
       </address>
-      <a href="tel:+90889097890">+908 89097 890</a>
+      <a class="footer__tel" href="tel:+90889097890">+908 89097 890</a>
       <ul class="socials footer__social-list">
         <li class="socials__item">
           <a class="socials__link" href="#">
@@ -177,8 +180,8 @@
         </li>
         <li class="socials__item">
           <a class="socials__link" href="#">
-            <span class="visually-hidden">Instagrem</span>
-            <img class="socials__image" src="#" alt="Instagrem">
+            <span class="visually-hidden">Instagram</span>
+            <img class="socials__image" src="#" alt="Instagram">
           </a>
         </li>
         <li class="socials__item">
