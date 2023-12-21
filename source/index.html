@@ -46,7 +46,22 @@
       <a class="trends__link" href="#">See all</a>
       <ul class="trends__games-list">
         <li class="trends__games-item">
-          <img src="./images/trend-game-1@1x.jpg" alt="Aliens">
+          <!-- <picture>
+            <source type="image/webp" media="(min-width: 1440px)"
+              srcset="img/index-can-desktop.webp 1x, img/index-can-desktop@2x.webp 2x">
+            <source type="image/webp" media="(min-width: 768px)"
+              srcset="img/index-can-tablet.webp 1x, img/index-can-tablet@2x.webp 2x">
+            <source type="image/webp" srcset="img/index-can-mobile.webp 1x, img/index-can-mobile@2x.webp 2x">
+
+            <source media="(min-width: 1440px)" srcset="img/index-can-desktop.png 1x, img/index-can-desktop@2x.png 2x">
+            <source media="(min-width: 768px)" srcset="img/index-can-tablet.png 1x, img/index-can-tablet@2x.png 2x">
+            <img class="hero__image" src="img/index-can-mobile.png" srcset="img/index-can-mobile@2x.png 2x"
+              alt="Банка питания Cat Energy со вкусом курицы." width="280" height="270">
+          </picture> -->
+          <picture>
+            <img class="trends__image" src="./images/trend-game-1@1x.jpg" srcset="./images/trend-game-1@2x.jpg 2x" alt="Aliens" width="250" height="278">
+          </picture>
+
           <p class="trends__followers">
             <span class="trends__followers-count">
               40
@@ -55,7 +70,9 @@
           </p>
         </li>
         <li class="trends__games-item">
-          <img src="http://dummyimage.com/100" alt="Magic">
+          <picture>
+            <img class="trends__image" src="./images/trend-game-2@1x.jpg" srcset="./images/trend-game-2@2x.jpg 2x" alt="Magic" width="250" height="278">
+          </picture>
           <p class="trends__followers">
             <span class="trends__followers-count">
               40
@@ -64,7 +81,10 @@
           </p>
         </li>
         <li class="trends__games-item">
-          <img src="http://dummyimage.com/100" alt="Shooter">
+          <picture>
+            <img class="trends__image" src="./images/trend-game-3@1x.jpg" srcset="./images/trend-game-3@2x.jpg 2x" alt="Shooter" width="250" height="278">
+          </picture>
+
           <p class="trends__followers">
             <span class="trends__followers-count">
               40
@@ -73,7 +93,9 @@
           </p>
         </li>
         <li class="trends__games-item">
-          <img src="http://dummyimage.com/100" alt="Robots">
+          <picture>
+            <img class="trends__image" src="./images/trend-game-4@1x.jpg" srcset="./images/trend-game-4@2x.jpg 2x" alt="Robots" width="250" height="278">
+          </picture>
           <p class="trends__followers">
             <span class="trends__followers-count">
               40
@@ -95,29 +117,31 @@
     </section>
 
     <section class="services">
-      <h2 class="services__title">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
-      <p class="services__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-        has been the industry's standard dummy text ever since the 1500s,</p>
-      <ul class="services__list">
-        <li class="services__item">
-          <a class="services__link" href="#">Mobile Game Development</a>
-        </li>
-        <li class="services__item">
-          <a class="services__link" href="#">PC Game Development</a>
-        </li>
-        <li class="services__item">
-          <a class="services__link" href="#">PS4 Game Development</a>
-        </li>
-        <li class="services__item">
-          <a class="services__link" href="#">AR/VR Solutions</a>
-        </li>
-        <li class="services__item">
-          <a class="services__link" href="#">AR/ VR design</a>
-        </li>
-        <li class="services__item">
-          <a class="services__link" href="#">3D Modelings</a>
-        </li>
-      </ul>
+      <div class="services__wrapper">
+        <h2 class="services__title">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
+        <p class="services__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+          has been the industry's standard dummy text ever since the 1500s,</p>
+        <ul class="services__list">
+          <li class="services__item">
+            <a class="services__link" href="#">Mobile Game Development</a>
+          </li>
+          <li class="services__item">
+            <a class="services__link" href="#">PC Game Development</a>
+          </li>
+          <li class="services__item">
+            <a class="services__link" href="#">PS4 Game Development</a>
+          </li>
+          <li class="services__item">
+            <a class="services__link" href="#">AR/VR Solutions</a>
+          </li>
+          <li class="services__item">
+            <a class="services__link" href="#">AR/ VR design</a>
+          </li>
+          <li class="services__item">
+            <a class="services__link" href="#">3D Modelings</a>
+          </li>
+        </ul>
+      </div>
     </section>
 
     <section class="projects">
@@ -206,7 +230,7 @@
         <li class="socials__item">
           <a class="socials__link" href="#">
             <span class="visually-hidden">Instagram</span>
-            <img class="socials__image" src="#" alt="Instagrem">
+            <img class="socials__image" src="#" alt="Instagram">
           </a>
         </li>
         <li class="socials__item">
