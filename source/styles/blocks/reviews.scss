@@ -1,0 +1,53 @@
+.reviews {
+  background: #1C140F;
+}
+
+.reviews__title {
+  font-family: $rubik-font;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 50px;
+  text-align: center
+}
+
+.reviews__description {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 187.5%;
+  text-align: center;
+}
+
+.reviews__list {
+  @include list-reset;
+}
+
+.reviews__name {
+  font-family: $rubik-font;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.reviews__city {
+  font-family: $rubik-font;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.reviews__rating {
+  font-family: $rubik-font;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.reviews__text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 187.5%;
+}
+
+.reviews__pagination {
+  @include list-reset;
+}

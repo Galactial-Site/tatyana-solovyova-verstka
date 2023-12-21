@@ -1,0 +1,15 @@
+.works__list {
+  @include list-reset;
+}
+
+.works__title {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.works__description {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: normal;
+}

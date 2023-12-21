@@ -1,0 +1,29 @@
+.stats__title {
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 180.5%;
+  text-align: center;
+}
+
+.stats__text {
+  text-align: center;
+}
+
+.stats__advantages {
+  @include list-reset;
+}
+
+.stats__advantage {
+  line-height: 30px;
+  font-family: $rubik-font;
+}
+
+.stats__number {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.stats__description {
+  font-size: 20px;
+  font-weight: 400;
+}
