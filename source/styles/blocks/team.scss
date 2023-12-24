@@ -1,0 +1,21 @@
+.team__title {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 180.5%;
+}
+
+.team__list {
+  @include list-reset;
+}
+
+.team__name {
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 202.5%;
+}
+
+.team__post {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 202.5%;
+}

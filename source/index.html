@@ -8,7 +8,7 @@
   <title>Gaming Platform</title>
 </head>
 
-<body class="page__body">
+<body class="page__body page__body--index">
   <header class="header">
     <a class="logo header__logo" href="#">Logo</a>
     <nav class="main-nav header__nav">
@@ -27,7 +27,7 @@
         </li>
       </ul>
     </nav>
-    <a class="button header__contact-button" href="./contacts.html">Contact us</a>
+    <a class="button button--header header__contact-button" href="./contacts.html">Contact us</a>
   </header>
 
   <main class="main-container">
@@ -46,7 +46,23 @@
       <a class="trends__link" href="#">See all</a>
       <ul class="trends__games-list">
         <li class="trends__games-item">
-          <img src="./images/js@1x.jpg" alt="Aliens">
+          <!-- <picture>
+            <source type="image/webp" media="(min-width: 1440px)"
+              srcset="img/index-can-desktop.webp 1x, img/index-can-desktop@2x.webp 2x">
+            <source type="image/webp" media="(min-width: 768px)"
+              srcset="img/index-can-tablet.webp 1x, img/index-can-tablet@2x.webp 2x">
+            <source type="image/webp" srcset="img/index-can-mobile.webp 1x, img/index-can-mobile@2x.webp 2x">
+
+            <source media="(min-width: 1440px)" srcset="img/index-can-desktop.png 1x, img/index-can-desktop@2x.png 2x">
+            <source media="(min-width: 768px)" srcset="img/index-can-tablet.png 1x, img/index-can-tablet@2x.png 2x">
+            <img class="hero__image" src="img/index-can-mobile.png" srcset="img/index-can-mobile@2x.png 2x"
+              alt="Банка питания Cat Energy со вкусом курицы." width="280" height="270">
+          </picture> -->
+          <picture>
+            <img class="trends__image" src="./images/trend-game-1@1x.jpg" srcset="./images/trend-game-1@2x.jpg 2x"
+              alt="Aliens" width="250" height="278">
+          </picture>
+
           <p class="trends__followers">
             <span class="trends__followers-count">
               40
@@ -55,7 +71,10 @@
           </p>
         </li>
         <li class="trends__games-item">
-          <img src="http://dummyimage.com/100" alt="Magic">
+          <picture>
+            <img class="trends__image" src="./images/trend-game-2@1x.jpg" srcset="./images/trend-game-2@2x.jpg 2x"
+              alt="Magic" width="250" height="278">
+          </picture>
           <p class="trends__followers">
             <span class="trends__followers-count">
               40
@@ -64,7 +83,11 @@
           </p>
         </li>
         <li class="trends__games-item">
-          <img src="http://dummyimage.com/100" alt="Shooter">
+          <picture>
+            <img class="trends__image" src="./images/trend-game-3@1x.jpg" srcset="./images/trend-game-3@2x.jpg 2x"
+              alt="Shooter" width="250" height="278">
+          </picture>
+
           <p class="trends__followers">
             <span class="trends__followers-count">
               40
@@ -73,7 +96,10 @@
           </p>
         </li>
         <li class="trends__games-item">
-          <img src="http://dummyimage.com/100" alt="Robots">
+          <picture>
+            <img class="trends__image" src="./images/trend-game-4@1x.jpg" srcset="./images/trend-game-4@2x.jpg 2x"
+              alt="Robots" width="250" height="278">
+          </picture>
           <p class="trends__followers">
             <span class="trends__followers-count">
               40
@@ -90,83 +116,82 @@
         <p class="example__subtitle">Lorem Ipsum</p>
         <p class="example__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
           has been the industry's standard dummy text ever since the 1500s,</p>
-        <img src="http://dummyimage.com/400" alt="example of a game visual">
+        <img class="example__image" src="./images/spiderman@1x.jpg" alt="example of a spiderman game visual">
       </div>
     </section>
 
     <section class="services">
-      <h2 class="services__title">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
-      <p class="services__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-        has been the industry's standard dummy text ever since the 1500s,</p>
-      <ul class="services__list">
-        <li class="services__item">
-          <a class="services__link" href="#">Mobile Game Development</a>
-        </li>
-        <li class="services__item">
-          <a class="services__link" href="#">PC Game Development</a>
-        </li>
-        <li class="services__item">
-          <a class="services__link" href="#">PS4 Game Development</a>
-        </li>
-        <li class="services__item">
-          <a class="services__link" href="#">AR/VR Solutions</a>
-        </li>
-        <li class="services__item">
-          <a class="services__link" href="#">AR/ VR design</a>
-        </li>
-        <li class="services__item">
-          <a class="services__link" href="#">3D Modelings</a>
-        </li>
-      </ul>
+      <div class="services__wrapper">
+        <h2 class="services__title">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
+        <p class="services__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+          has been the industry's standard dummy text ever since the 1500s,</p>
+        <ul class="services__list">
+          <li class="services__item">
+            <a class="services__link" href="#">Mobile Game Development</a>
+          </li>
+          <li class="services__item">
+            <a class="services__link" href="#">PC Game Development</a>
+          </li>
+          <li class="services__item">
+            <a class="services__link" href="#">PS4 Game Development</a>
+          </li>
+          <li class="services__item">
+            <a class="services__link" href="#">AR/VR Solutions</a>
+          </li>
+          <li class="services__item">
+            <a class="services__link" href="#">AR/ VR design</a>
+          </li>
+          <li class="services__item">
+            <a class="services__link" href="#">3D Modelings</a>
+          </li>
+        </ul>
+      </div>
     </section>
 
-    <section class="projects">
-      <h2 class="projects__title">Our Recent Projects</h2>
-      <p class="projects__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-      <ul class="projects__list">
-        <li class="projects__item">
-          <img class="projects__image" src="#" alt="project1">
-        </li>
-        <li class="projects__item">
-          <img class="projects__image" src="#" alt="project1">
-        </li>
-        <li class="projects__item">
-          <img class="projects__image" src="#" alt="project1">
-        </li>
-        <li class="projects__item">
-          <img class="projects__image" src="#" alt="project1">
-        </li>
-        <li class="projects__item">
-          <img class="projects__image" src="#" alt="project1">
-        </li>
-        <li class="projects__item">
-          <img class="projects__image" src="#" alt="project1">
-        </li>
-      </ul>
-
-      <a class="projects__link" href="#">See all</a>
-    </section>
-
-    <section class="subscribe">
-      <h2 class="subscribe__title">Lorem Ipsum</h2>
-      <p class="subscribe__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-
-      <form class="form subscribe__form" action="https://echo.htmlacademy.ru/" method="post">
-        <p class="form__title">Stay in the loop</p>
-        <p class="form__text">Subscribe to receive the latest news and updates about TDA. We promise not to spam you!
-        </p>
-
-        <label class="visually-hidden" for="email-input">Email</label>
-        <input class="form__input" type="email" id="email-input" name="email-input" placeholder="Enter email address">
-
-        <button class="button form__button" type="submit">Continue</button>
-      </form>
-    </section>
+    <div class="main-container__container-lower">
+      <section class="projects">
+        <h2 class="projects__title">Our Recent Projects</h2>
+        <p class="projects__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <ul class="projects__list">
+          <li class="projects__item">
+            <img class="projects__image" src="#" alt="project1">
+          </li>
+          <li class="projects__item">
+            <img class="projects__image" src="#" alt="project1">
+          </li>
+          <li class="projects__item">
+            <img class="projects__image" src="#" alt="project1">
+          </li>
+          <li class="projects__item">
+            <img class="projects__image" src="#" alt="project1">
+          </li>
+          <li class="projects__item">
+            <img class="projects__image" src="#" alt="project1">
+          </li>
+          <li class="projects__item">
+            <img class="projects__image" src="#" alt="project1">
+          </li>
+        </ul>
+        <a class="projects__link" href="#">See all</a>
+      </section>
+      <section class="subscribe">
+        <h2 class="subscribe__title">Lorem Ipsum</h2>
+        <p class="subscribe__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <form class="form subscribe__form" action="https://echo.htmlacademy.ru/" method="post">
+          <p class="form__title">Stay in the loop</p>
+          <p class="form__text">Subscribe to receive the latest news and updates about TDA. We promise not to spam you!
+          </p>
+          <label class="visually-hidden" for="email-input">Email</label>
+          <input class="form__input" type="email" id="email-input" name="email-input" placeholder="Enter email address">
+          <button class="button button--form" type="submit">Continue</button>
+        </form>
+      </section>
+    </div>
   </main>
 
   <footer class="footer">
     <div class="footer__wrapper">
-      <a class="logo footer__logo" href="#">Logo</a>
+      <a class="logo logo--footer" href="#">Logo</a>
       <p class="footer__slogan">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
       <span class="footer__author">@Logo</span>
     </div>
@@ -193,8 +218,10 @@
       <h2 class="footer__title">Contact us</h2>
       <address class="footer__address">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
       </address>
-      <a href="tel:+90889097890">+908 89097 890</a>
-      <ul class="socials footer__social-list">
+      <a class="footer__tel" href="tel:+90889097890">+908 89097 890</a>
+    </div>
+    <div class="socials footer__social-list">
+      <ul class="socials__list">
         <li class="socials__item">
           <a class="socials__link" href="#">
             <span class="visually-hidden">Facebook</span>
@@ -203,8 +230,8 @@
         </li>
         <li class="socials__item">
           <a class="socials__link" href="#">
-            <span class="visually-hidden">Instagrem</span>
-            <img class="socials__image" src="#" alt="Instagrem">
+            <span class="visually-hidden">Instagram</span>
+            <img class="socials__image" src="#" alt="Instagram">
           </a>
         </li>
         <li class="socials__item">
@@ -221,6 +248,7 @@
         </li>
       </ul>
     </div>
+
 
     <div class="footer__copyright">
       <p>Copyright ® 2021 Lorem All rights Rcerved</p>

@@ -1,0 +1,22 @@
+.advantages__title {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 180.5%;
+}
+
+.advantages__list {
+  @include list-reset;
+}
+
+.advantages__highlight,
+.advantages__text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 187.5%;
+}
+
+.advantages__subtitle {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 187.5%;
+}

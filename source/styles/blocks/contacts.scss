@@ -1,0 +1,32 @@
+.contacts__title {
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 180.5%;
+  text-align: center;
+}
+
+.contacts__text {
+  text-align: center;
+}
+
+.contacts__socials-list {
+  @include list-reset;
+}
+
+.contacts__socials-title {
+  font-weight: 400;
+  line-height: 189.5%;
+}
+
+.contacts__socials-link,
+.contacts__tel {
+  color: inherit;
+}
+
+.contacts__address,
+.contacts__tel {
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: normal;
+}

@@ -4,10 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/styles.css">
   <title>Gaming Platform</title>
 </head>
 
-<body>
+<body class="page__body page__body--news">
   <header class="header">
     <a class="logo header__logo" href="./index.html">Logo</a>
     <nav class="main-nav header__nav">
@@ -26,20 +27,22 @@
         </li>
       </ul>
     </nav>
-    <a class="button header__contact-button" href="./contacts.html">Contact us</a>
+    <a class="button button--header" href="./contacts.html">Contact us</a>
   </header>
 
   <main class="main-container">
     <h1 class="visually-hidden">News</h1>
     <section class="intro">
-      <ul class="breadcrumbs">
-        <li class="breadcrumbs__item">
-          <a class="breadcrumbs__link" href="./index.html">Home</a>
-        </li>
-        <li class="breadcrumbs__item">
-          <a class="breadcrumbs__link" href="#">News</a>
-        </li>
-      </ul>
+      <div class="breadcrumbs">
+        <ul class="breadcrumbs__list">
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="./index.html">Home</a>
+          </li>
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link breadcrumbs__link--active" href="#">News</a>
+          </li>
+        </ul>
+      </div>
       <h2 class="intro__title">Lorem Ipsum is simply dummy text of the printing and.</h2>
       <p class="intro__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
       <form class="intro__form" action="https://echo.htmlacademy.ru/" method="get">
@@ -54,10 +57,10 @@
       <ul class="news__list">
         <li class="news__item big-new">
           <a class="big-new__link" href="#">
-            <img class="big-new__image" src="#" alt="#">
+            <img class="big-new__image" src="./images/witch-news@1x.jpg" alt="new-1" width="587" height="295" >
             <span class="big-new__author">John smash</span>
             <span class="big-new__reading-time">.5min</span>
-            <p class="big-new__title" href="#">Lorem Ipsum is simply dummy text dummy text</p>
+            <p class="big-new__title">Lorem Ipsum is simply dummy text dummy text</p>
             <p class="big-new__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
               Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
               galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
@@ -65,12 +68,12 @@
           </a>
         </li>
         <li class="news__item big-new">
-          <a class="big-new__image-link" href="#">
-            <img class="big-new__image" src="#" alt="#">
+          <a class="big-new__link" href="#">
+            <img class="big-new__image" src="./images/town-lights-news@1x.jpg" alt="new-2" width="587" height="295">
 
             <span class="big-new__author">John smash</span>
             <span class="big-new__reading-time">.5min</span>
-            <p class="big-new__title" href="#">Lorem Ipsum is simply dummy text dummy text</p>
+            <p class="big-new__title">Lorem Ipsum is simply dummy text dummy text</p>
             <p class="big-new__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
               Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
               galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
@@ -81,68 +84,68 @@
 
       <ul class="news__list-mini">
         <li class="news__item-mini new-mini">
-          <a class="new-mini__image-link" href="#">
-            <img class="new-mini__image" src="#" alt="#">
+          <a class="new-mini__link" href="#">
+            <img class="new-mini__image" src="./images/mini-new-1@1x.jpg" alt="mini-new-1" width="195" height="183">
             <span class="new-mini__author">John smash</span>
             <span class="new-mini__reading-time">.5min</span>
-            <p class="new-mini__title" href="#">Lorem Ipsum is simply dummy text dummy text ?</p>
+            <p class="new-mini__title">Lorem Ipsum is simply dummy text dummy text ?</p>
           </a>
         </li>
 
         <li class="news__item-mini new-mini">
-          <a class="new-mini__image-link" href="#">
-            <img class="new-mini__image" src="#" alt="#">
+          <a class="new-mini__link" href="#">
+            <img class="new-mini__image" src="./images/mini-new-2@1x.jpg" alt="mini-new-2" width="195" height="183">
 
             <span class="new-mini__author">John smash</span>
             <span class="new-mini__reading-time">.5min</span>
-            <p class="new-mini__title" href="#">Lorem Ipsum is simply dummy text dummy text ?</p>
+            <p class="new-mini__title">Lorem Ipsum is simply dummy text dummy text ?</p>
           </a>
         </li>
 
         <li class="news__item-mini new-mini">
-          <a class="new-mini__image-link" href="#">
-            <img class="new-mini__image" src="#" alt="#">
+          <a class="new-mini__link" href="#">
+            <img class="new-mini__image" src="./images/mini-new-3@1x.jpg" alt="mini-new-3" width="195" height="183">
 
             <span class="new-mini__author">John smash</span>
             <span class="new-mini__reading-time">.5min</span>
-            <a class="new-mini__title" href="#">Lorem Ipsum is simply dummy text dummy text ?</a>
+            <p class="new-mini__title">Lorem Ipsum is simply dummy text dummy text ?</p>
           </a>
         </li>
 
         <li class="news__item-mini new-mini">
-          <a class="new-mini__image-link" href="#">
-            <img class="new-mini__image" src="#" alt="#">
+          <a class="new-mini__link" href="#">
+            <img class="new-mini__image" src="./images/mini-new-4@1x.jpg" alt="mini-new-4" width="195" height="183">
             <span class="new-mini__author">John smash</span>
             <span class="new-mini__reading-time">.5min</span>
-            <p class="new-mini__title" href="#">Lorem Ipsum is simply dummy text dummy text ?</p>
+            <p class="new-mini__title">Lorem Ipsum is simply dummy text dummy text ?</p>
           </a>
         </li>
 
         <li class="news__item-mini new-mini">
-          <a class="new-mini__image-link" href="#">
-            <img class="new-mini__image" src="#" alt="#">
+          <a class="new-mini__link" href="#">
+            <img class="new-mini__image" src="./images/mini-new-5@1x.jpg" alt="mini-new-5" width="195" height="183">
 
             <span class="new-mini__author">John smash</span>
             <span class="new-mini__reading-time">.5min</span>
-            <p class="new-mini__title" href="#">Lorem Ipsum is simply dummy text dummy text ?</p>
+            <p class="new-mini__title">Lorem Ipsum is simply dummy text dummy text ?</p>
           </a>
         </li>
 
         <li class="news__item-mini new-mini">
-          <a class="new-mini__image-link" href="#">
-            <img class="new-mini__image" src="#" alt="#">
+          <a class="new-mini__link" href="#">
+            <img class="new-mini__image" src="./images/mini-new-6@1x.jpg" alt="mini-new-6" width="195" height="183">
             <span class="new-mini__author">John smash</span>
             <span class="new-mini__reading-time">.5min</span>
-            <p class="new-mini__title" href="#">Lorem Ipsum is simply dummy text dummy text ?</p>
+            <p class="new-mini__title">Lorem Ipsum is simply dummy text dummy text ?</p>
           </a>
         </li>
 
         <li class="news__item-mini new-mini">
-          <a class="new-mini__image-link" href="#">
-            <img class="new-mini__image" src="#" alt="#">
+          <a class="new-mini__link" href="#">
+            <img class="new-mini__image" src="./images/mini-new-7@1x.jpg" alt="mini-new-7" width="195" height="183">
             <span class="new-mini__author">John smash</span>
             <span class="new-mini__reading-time">.5min</span>
-            <p class="new-mini__title" href="#">Lorem Ipsum is simply dummy text dummy text ?</p>
+            <p class="new-mini__title">Lorem Ipsum is simply dummy text dummy text ?</p>
           </a>
         </li>
       </ul>
@@ -160,14 +163,14 @@
         <label class="visually-hidden" for="email-input">Email</label>
         <input class="form__input" type="email" id="email-input" name="email-input" placeholder="Enter email address">
 
-        <button class="button form__button" type="submit">Continue</button>
+        <button class="button button--form" type="submit">Continue</button>
       </form>
     </section>
   </main>
 
   <footer class="footer">
     <div class="footer__wrapper">
-      <a class="logo footer__logo" href="#">Logo</a>
+      <a class="logo logo--footer" href="#">Logo</a>
       <p class="footer__slogan">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
       <span class="footer__author">@Logo</span>
     </div>
@@ -194,33 +197,35 @@
       <h2 class="footer__title">Contact us</h2>
       <address class="footer__address">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
       </address>
-      <a href="tel:+90889097890">+908 89097 890</a>
-      <ul class="socials footer__social-list">
-        <li class="socials__item">
-          <a class="socials__link" href="#">
-            <span class="visually-hidden">Facebook</span>
-            <img class="socials__image" src="#" alt="Facebook">
-          </a>
-        </li>
-        <li class="socials__item">
-          <a class="socials__link" href="#">
-            <span class="visually-hidden">Instagrem</span>
-            <img class="socials__image" src="#" alt="Instagrem">
-          </a>
-        </li>
-        <li class="socials__item">
-          <a class="socials__link" href="#">
-            <span class="visually-hidden">Twitter</span>
-            <img class="socials__image" src="#" alt="Twitter">
-          </a>
-        </li>
-        <li class="socials__item">
-          <a class="socials__link" href="#">
-            <span class="visually-hidden">LinkedIn</span>
-            <img class="socials__image" src="#" alt="LinkedIn">
-          </a>
-        </li>
-      </ul>
+      <a class="footer__tel" href="tel:+90889097890">+908 89097 890</a>
+      <div class="socials">
+        <ul class="socials__list">
+          <li class="socials__item">
+            <a class="socials__link" href="#">
+              <span class="visually-hidden">Facebook</span>
+              <img class="socials__image" src="#" alt="Facebook">
+            </a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link" href="#">
+              <span class="visually-hidden">Instagram</span>
+              <img class="socials__image" src="#" alt="Instagram">
+            </a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link" href="#">
+              <span class="visually-hidden">Twitter</span>
+              <img class="socials__image" src="#" alt="Twitter">
+            </a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link" href="#">
+              <span class="visually-hidden">LinkedIn</span>
+              <img class="socials__image" src="#" alt="LinkedIn">
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
 
     <div class="footer__copyright">

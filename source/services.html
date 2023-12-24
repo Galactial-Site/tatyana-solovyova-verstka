@@ -4,10 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/styles.css">
   <title>Gaming Platform</title>
 </head>
 
-<body>
+<body class="page__body page__body--services">
   <header class="header">
     <a class="logo header__logo" href="./index.html">Logo</a>
     <nav class="main-nav header__nav">
@@ -33,14 +34,16 @@
     <h1 class="visually-hidden">Services</h1>
 
     <section class="stats">
-      <ul class="breadcrumbs">
-        <li class="breadcrumbs__item">
-          <a class="breadcrumbs__link" href="./index.html">Home</a>
-        </li>
-        <li class="breadcrumbs__item">
-          <a class="breadcrumbs__link" href="#">Services</a>
-        </li>
-      </ul>
+      <div class="breadcrumbs">
+        <ul class="breadcrumbs__list">
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="./index.html">Home</a>
+          </li>
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link breadcrumbs__link--active" href="#">Services</a>
+          </li>
+        </ul>
+      </div>
 
       <h2 class="stats__title">Lorem Ipsum is simply dummy text of the printing and.</h2>
       <p class="stats__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -87,20 +90,32 @@
         <li class="works__item">
           <div class="works__wrapper">
             <p class="works__title">Lorem Ipsum is simply dummy text dummy text</p>
-            <p class="works__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+            <p class="works__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+              a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+            </p>
             <p class="works__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <a class="button works__button" href="#">Read more</a>
+            <a class="button button--works" href="#">Read more</a>
           </div>
-          <img class="works__image" src="#" alt="#">
+          <picture>
+            <img class="works__image" src="./images/town-lights@1x.jpg" srcset="./images/town-lights@2x.jpg 2x" alt="#"
+              width="496" height="490">
+          </picture>
         </li>
 
         <li class="works__item">
-          <img class="works__image" src="#" alt="#">
+          <picture>
+            <img class="works__image" src="./images/witch@1x.jpg" srcset="./images/witch@2x.jpg 2x" alt="#" width="496"
+              height="490">
+          </picture>
           <div class="works__wrapper">
             <p class="works__title">Lorem Ipsum is simply dummy text dummy text</p>
-            <p class="works__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+            <p class="works__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+              a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+            </p>
             <p class="works__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <a class="button works__button" href="#">Read more</a>
+            <a class="button button--works" href="#">Read more</a>
           </div>
         </li>
 
@@ -109,30 +124,38 @@
             <p class="works__title">
               Lorem Ipsum is simply dummy text dummy text
             </p>
-            <p class="works__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</p>
+            <p class="works__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+              a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+            </p>
             <p class="works__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <a class="button works__button" href="#">Read more</a>
+            <a class="button button--works" href="#">Read more</a>
           </div>
-          <img class="works__image" src="#" alt="#">
+          <picture>
+            <img class="works__image" src="./images/shooter@1x.jpg" srcset="./images/shooter@2x.jpg 2x" alt="#"
+              width="496" height="490">
+          </picture>
         </li>
       </ul>
     </section>
 
     <section class="reviews">
       <h2 class="reviews__title">Trusted by Thousands of Happy Customer</h2>
-      <p class="reviews__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy .</p>
+      <p class="reviews__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem
+        Ipsum is simply dummy .</p>
       <div class="reviews__slider">
         <ul class="reviews__list">
           <li class="reviews__item">
-            <img class="reviews__photo" src="#" alt="#">
+            <img class="reviews__photo" src="./images/reviewer-1@1x.jpg" srcset="./images/reviewer-1@2x.jpg 2x" alt="#" width="50" height="50">
             <span class="reviews__name">Viezh Robert</span>
             <span class="reviews__city">Warsaw, Poland</span>
             <span class="reviews__rating">4.5</span>
-            <p class="reviews__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            <p class="reviews__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+              Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
           </li>
 
           <li class="reviews__item">
-            <img class="reviews__photo" src="#" alt="#">
+            <img class="reviews__photo" src="./images/reviewer-2@1x.jpg" srcset="./images/reviewer-2@2x.jpg 2x" alt="#" width="50" height="50">
             <span class="reviews__name">Yessica Christy</span>
             <span class="reviews__city">Shanxi, China</span>
             <span class="reviews__rating">4.5</span>
@@ -140,7 +163,7 @@
           </li>
 
           <li class="reviews__item">
-            <img class="reviews__photo" src="#" alt="#">
+            <img class="reviews__photo" src="./images/reviewer-3@1x.jpg" srcset="./images/reviewer-3@2x.jpg 2x" alt="#" width="50" height="50">
             <span class="reviews__name">Kim Young Jou</span>
             <span class="reviews__city">Seoul, South Korea</span>
             <span class="reviews__rating">4.5</span>
@@ -193,14 +216,14 @@
         <label class="visually-hidden" for="email-input">Email</label>
         <input class="form__input" type="email" id="email-input" name="email-input" placeholder="Enter email address">
 
-        <button class="button form__button" type="submit">Continue</button>
+        <button class="button button--form" type="submit">Continue</button>
       </form>
     </section>
   </main>
 
   <footer class="footer">
     <div class="footer__wrapper">
-      <a class="logo footer__logo" href="#">Logo</a>
+      <a class="logo logo--footer" href="#">Logo</a>
       <p class="footer__slogan">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
       <span class="footer__author">@Logo</span>
     </div>
@@ -227,33 +250,35 @@
       <h2 class="footer__title">Contact us</h2>
       <address class="footer__address">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
       </address>
-      <a href="tel:+90889097890">+908 89097 890</a>
-      <ul class="socials footer__social-list">
-        <li class="socials__item">
-          <a class="socials__link" href="#">
-            <span class="visually-hidden">Facebook</span>
-            <img class="socials__image" src="#" alt="Facebook">
-          </a>
-        </li>
-        <li class="socials__item">
-          <a class="socials__link" href="#">
-            <span class="visually-hidden">Instagrem</span>
-            <img class="socials__image" src="#" alt="Instagrem">
-          </a>
-        </li>
-        <li class="socials__item">
-          <a class="socials__link" href="#">
-            <span class="visually-hidden">Twitter</span>
-            <img class="socials__image" src="#" alt="Twitter">
-          </a>
-        </li>
-        <li class="socials__item">
-          <a class="socials__link" href="#">
-            <span class="visually-hidden">LinkedIn</span>
-            <img class="socials__image" src="#" alt="LinkedIn">
-          </a>
-        </li>
-      </ul>
+      <a class="footer__tel" href="tel:+90889097890">+908 89097 890</a>
+      <div class="socials footer__social-list">
+        <ul class="socials__list">
+          <li class="socials__item">
+            <a class="socials__link" href="#">
+              <span class="visually-hidden">Facebook</span>
+              <img class="socials__image" src="#" alt="Facebook">
+            </a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link" href="#">
+              <span class="visually-hidden">Instagrem</span>
+              <img class="socials__image" src="#" alt="Instagrem">
+            </a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link" href="#">
+              <span class="visually-hidden">Twitter</span>
+              <img class="socials__image" src="#" alt="Twitter">
+            </a>
+          </li>
+          <li class="socials__item">
+            <a class="socials__link" href="#">
+              <span class="visually-hidden">LinkedIn</span>
+              <img class="socials__image" src="#" alt="LinkedIn">
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
 
     <div class="footer__copyright">

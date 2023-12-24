@@ -1,0 +1,30 @@
+.button {
+  font-family: $poppins-font;
+  font-size: 16px;
+  font-weight: 500;
+  color: inherit;
+  line-height: normal;
+}
+
+.button--header {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.button--form {
+  font-size: 13px;
+  font-weight: 400;
+
+  background-color: #DC7000;
+  border: none;
+  cursor: pointer;
+}
+
+.button--works {
+  font-weight: 400;
+}
+
+.button--feedback {
+  font-weight: 400;
+  line-height: 204.3%;
+}

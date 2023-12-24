@@ -1,0 +1,14 @@
+.breadcrumbs__list {
+  @include list-reset;
+}
+
+.breadcrumbs__link {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 208.5%;
+  color: inherit;
+}
+
+.breadcrumbs__link--active {
+  color: #E47500;
+}

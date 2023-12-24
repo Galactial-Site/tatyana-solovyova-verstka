@@ -1,0 +1,24 @@
+.services {
+  background-image: url('../../images/services-background@1x.png');
+  background-size: cover;
+}
+
+.services__title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 187.5%;
+  text-align: center;
+}
+
+.services__text {
+  font-weight: 400;
+  text-align: center
+}
+
+.services__list {
+  @include list-reset;
+}
+
+.services__link {
+  color: inherit;
+}
