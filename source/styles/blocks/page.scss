@@ -5,12 +5,12 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 30px;
-  background-color: #000000;
+  background-color: $background-color;
   color: $text-color;
 }
 
 .page__body--index {
-  background: linear-gradient(181deg, #000 0.82%, #4A2800 129.1%);
+  background: linear-gradient(181deg, $background-color 0.82%, #4A2800 129.1%);
   backdrop-filter: blur(7px);
 }
 
