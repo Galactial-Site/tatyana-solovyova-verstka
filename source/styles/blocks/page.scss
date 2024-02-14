@@ -10,22 +10,22 @@
 }
 
 .page__body--index {
-  background: linear-gradient(181deg, $background-color 0.82%, #4A2800 129.1%);
+  background: linear-gradient(181deg, $background-color 0.82%, $index-gradient 129.1%);
   backdrop-filter: blur(7px);
 }
 
 .page__body--about-us {
-  background: linear-gradient(180deg, #010101 -15.71%, #1A0E01 99.57%);
+  background: linear-gradient(180deg, $about-us-background -15.71%, $about-us-gradient 99.57%);
 }
 
 .page__body--services {
-  background: linear-gradient(177deg, #050301 -30.15%, #120A01 92.85%);
+  background: linear-gradient(177deg, $services-background -30.15%, $services-gradient 92.85%);
 }
 
 .page__body--news {
-  background: linear-gradient(176deg, #050301 -34.57%, #150C01 96.75%);
+  background: linear-gradient(176deg, $services-background -34.57%, $news-gradient 96.75%);
 }
 
 .page__body--contacts {
-  background: linear-gradient(176deg, #090501 -26.24%, #120A01 96.98%);
+  background: linear-gradient(176deg, $contacts-background -26.24%, $services-gradient 96.98%);
 }
